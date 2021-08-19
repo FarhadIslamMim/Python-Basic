@@ -1,0 +1,18 @@
+language=[]
+language.append("c++")
+language.append("c")
+language.append("java")
+language.append("c#")
+language.append("python")
+print(language)
+language.pop()
+print("Now the top language is:"+language[-1])
+language.pop()
+print("Now the top language is:"+language[-1])
+language.pop()
+print("Now the top language is:"+language[-1])
+language.pop()
+print("Now the top language is:"+language[-1])
+language.pop()
+if not language:
+    print("there is no language left.")

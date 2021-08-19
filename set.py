@@ -1,0 +1,12 @@
+number = {1, 2, 3, 4, 5, 3, 6, 7}
+print(number)
+num = set([6, 7, 8, 9, 10])
+num.add(11)
+#num.remove(9)
+print(num)
+#print(9 in num)
+#print(7 in num)
+#print(7 not in num)
+print(number | num)
+print(number & num)
+print(number - num)
