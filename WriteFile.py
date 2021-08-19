@@ -1,0 +1,6 @@
+file=open("Student1.txt","a")
+file.write("\nSadia afrin Rokeya")
+file.write("\nsabnaj afrin ")
+file.write("\nsathi afrin ")
+file.write("\nZarin tasnim shoume ")
+file.close()
